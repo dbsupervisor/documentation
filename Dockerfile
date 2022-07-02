@@ -1,7 +1,5 @@
 FROM node:17-slim
 
-RUN apt update -y
-
 WORKDIR /usr/src/app
 COPY ./ ./
 
