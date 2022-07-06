@@ -6,4 +6,4 @@ COPY ./ ./
 RUN npm i
 RUN npm run build
 
-CMD ["npm", "run", "serve", "--port", "80"]
+CMD ["/bin/bash", "-c", "npm run serve --port 80"]
