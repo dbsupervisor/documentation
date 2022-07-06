@@ -24,8 +24,7 @@ const config = {
         docs: {
           routeBasePath: "/",
           sidebarPath: require.resolve("./sidebars.js"),
-          editUrl:
-            "https://github.com/dbsupervisor/documentation/tree/main/packages/create-docusaurus/templates/shared/",
+          editUrl: "https://github.com/dbsupervisor/documentation/tree/main/",
         },
         blog: false,
         theme: {
