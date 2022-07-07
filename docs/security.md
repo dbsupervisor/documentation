@@ -11,6 +11,4 @@ DBSupervisor maintains a fixed list of public IP addresses, which you can use to
 ```
 18.207.73.85
 35.153.125.201
-44.193.231.44
-54.235.166.239
 ```
