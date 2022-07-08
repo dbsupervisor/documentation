@@ -4,8 +4,7 @@ env:
     DOCKERHUB_USERNAME: "dbsupervisor/docker-hub:DOCKERHUB_USERNAME"
     DOCKERHUB_PASSWORD: "dbsupervisor/docker-hub:DOCKERHUB_PASSWORD"
 artifacts:
-  files:
-    - imagedefinitions.json
+  files: imagedefinitions.json
 phases:
   install:
     commands:
